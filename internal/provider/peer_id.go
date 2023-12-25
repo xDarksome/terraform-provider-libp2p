@@ -54,7 +54,7 @@ func (d *PeerIdDataSource) Schema(ctx context.Context, req datasource.SchemaRequ
 			},
 			"base58": schema.StringAttribute{
 				MarkdownDescription: "base58 representation of this Peer ID",
-				Optional:            true,
+				Computed:            true,
 			},
 		},
 	}

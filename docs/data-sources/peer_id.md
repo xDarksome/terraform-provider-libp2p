@@ -19,6 +19,6 @@ Peer ID
 
 - `ed25519_secret_key` (String, Sensitive) Base64 encoded ed25519 secret key (seed)
 
-### Optional
+### Read-Only
 
 - `base58` (String) base58 representation of this Peer ID
